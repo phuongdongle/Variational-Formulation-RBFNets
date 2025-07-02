@@ -5,11 +5,11 @@ A pure-Python micro-library that tackles three canonical 1-D problems with
 normalised radial basis functions (RBFs), weak boundary/obstacle enforcement,
 and truncated-SVD stabilisation.
 
-| PDE | Strong form | File | Demo |
-|-----|-------------|------|------|
-| Reaction–Diffusion | <img src="https://latex.codecogs.com/svg.image?-u''&plus;u=f" alt="-u'' + u = f"> | `rbf_reactiondiffusion.py` | `examples/demo_sin.py` |
-| Poisson | <img src="https://latex.codecogs.com/svg.image?-u''=f" alt="-u'' = f"> | `rbf_poisson.py` | `examples/demo_poly.py` |
-| Classical obstacle | <img src="https://latex.codecogs.com/svg.image?u\ge\psi,\;-u''\ge f,\;(u-\psi)(-u''-f)=0" alt="classical obstacle conditions"> | `rbf_obstacle.py` | `examples/demo_obstacle.py` |
+| PDE | Strong form | File | 
+|-----|-------------|------|
+| Reaction–Diffusion | <img src="https://latex.codecogs.com/svg.image?-u''&plus;u=f" alt="-u'' + u = f"> | `rbf_reactiondiffusion.py` |
+| Poisson | <img src="https://latex.codecogs.com/svg.image?-u''=f" alt="-u'' = f"> | `rbf_poisson.py`|
+| Classical obstacle | <img src="https://latex.codecogs.com/svg.image?u\ge\psi,\;-u''\ge f,\;(u-\psi)(-u''-f)=0" alt="classical obstacle conditions"> | `rbf_obstacle.py` |
 
 ---
 
