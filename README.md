@@ -24,8 +24,7 @@ and truncated-SVD stabilisation.
 
 ### 3  Classical Obstacle
 
-<img src="https://latex.codecogs.com/svg.image?\begin{cases}u(x)\ge\psi(x)\\-u''(x)\ge f(x)\\(u-\psi)(-u''-f)=0\end{cases}\quad x\in(a,b)" alt="obstacle complementarity">
-
+ <img src="https://latex.codecogs.com/svg.image?u(x)%5Cge%5Cpsi(x)%2C%5C;-u''(x)%5Cge%20f(x)%2C%5C;(u-%5Cpsi)(-u''-f)%3D0" alt="u ≥ ψ,  -u'' ≥ f,  (u-ψ)(-u''-f)=0">
 Dirichlet data: `u(a)=g_a`, `u(b)=g_b`.
 
 _Boundary conditions (and the obstacle constraint) are imposed weakly via a
