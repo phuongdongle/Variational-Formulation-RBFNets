@@ -1,8 +1,6 @@
 # Variational-Weak-Formulation-RBFNets
 
 
-# Variational-Weak-Formulation-RBFNets
-
 A pure-Python micro-library that tackles three canonical 1-D problems with
 normalised radial basis functions (RBFs), weak boundary/obstacle enforcement,
 and truncated-SVD stabilisation.
