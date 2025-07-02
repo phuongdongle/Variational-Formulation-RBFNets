@@ -9,7 +9,7 @@ and truncated-SVD stabilisation.
 |--------------------|------------------------------------------------------------------------------|---------------------|
 | Reaction–Diffusion | <img src="https://latex.codecogs.com/svg.image?-u''&plus;u=f" alt="-u'' + u = f"> | `rbf_reactiondiffusion.py` |
 | Poisson            | <img src="https://latex.codecogs.com/svg.image?-u''=f" alt="-u'' = f">          | `rbf_poisson.py`          |
-| Classical obstacle | <img src="https://latex.codecogs.com/svg.image?%3F" alt="?">                    | `rbf_obstacle.py`         |
+| Classical obstacle | <img src="https://latex.codecogs.com/svg.image?%3F" alt="\begin{cases}u(x)\ge\psi(x)\\-u''(x)\ge f(x)\\(u-\psi)(-u''-f)=0\end{cases}\quad x\in(a,b)">                    | `rbf_obstacle.py`         |
 
 
 ## 📜 Problems in Detail
