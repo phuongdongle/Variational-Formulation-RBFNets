@@ -150,7 +150,7 @@ The comparison of Approximation and Exact Solution for 1D - Obstacle (Linear Pro
 The comparison of Approximation and Exact Solution for 1D - Obstacle (Linear Problem) PDE as follows: 
 
 
-![Convergence of Obstacle Double Bump solver](ClassicalObstacleProblem/figures/1D/Two-Bump/fig_obstacle1D_double_bump.png)
+![Convergence of Obstacle Double Bump solver](ClassicalObstacleProblem/figures/1D/Two-Bump/fig_obstacle1D_two_bump.png)
 
 
 
