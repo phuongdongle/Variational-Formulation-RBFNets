@@ -22,6 +22,9 @@ and truncated-SVD stabilisation.
 
 <img src="https://latex.codecogs.com/svg.image?-u''(x)=f(x),\;\;x\in(a,b),\;\;u(a)=g_a,\;u(b)=g_b" alt="-u'' = f with BCs">
 
+![Convergence of Poisson solver](PoissonPDE/figures/fig1_poisson.png)
+
+
 ### 3  Classical Obstacle
 
  <img src="https://latex.codecogs.com/svg.image?u(x)%5Cge%5Cpsi(x)%2C%5C;-u''(x)%5Cge%20f(x)%2C%5C;(u-%5Cpsi)(-u''-f)%3D0" alt="u ≥ ψ,  -u'' ≥ f,  (u-ψ)(-u''-f)=0">
