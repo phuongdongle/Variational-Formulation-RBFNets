@@ -16,17 +16,10 @@ and truncated-SVD stabilisation.
 
 ```text
 Variational-Weak-Formulation-RBFNets/
-├── rbf_poisson.py
-├── rbf_reactiondiffusion.py
-├── rbf_obstacle.py
-├── common/                    # shared helpers: kernels, TSVD, penalties, grids
-│   ├── kernels.py
-│   ├── tsvd.py
-│   └── penalties.py
 ├── scripts/                   # reproducible experiments (make figures)
-│   ├── run_poisson.py
-│   ├── run_reactiondiffusion.py
-│   └── run_obstacle.py
+│   ├── 1D_Poisson_BenchmarkN.ipynb
+│   ├── 1D_ReactionDiffusion_BenchmarkN.ipynb
+│   └── 1D_ObstacleProblem_BenchmarkN.ipynb
 ├── PoissonPDE/
 │   └── figures/
 │       ├── fig1_poisson.png
@@ -42,14 +35,10 @@ Variational-Weak-Formulation-RBFNets/
 │       ├── fig3_reactiondiffusion.png
 │       ├── fig13_reactiondiffusion.png
 │       └── fig14_reactiondiffusion.png
-├── tests/
-│   ├── test_poisson.py
-│   ├── test_reactiondiffusion.py
-│   └── test_obstacle.py
 ├── requirements.txt
 ├── README.md
 └── LICENSE
-
+```
 
 
 
@@ -141,17 +130,20 @@ cd <REPO>
 python -m venv .venv
 source .venv/bin/activate  # Windows: .venv\Scripts\activate
 
-# install
+# Installation
+
+```text
 pip install -r requirements.txt
+```
 
 #### Requirements
-
+```text
 numpy>=1.24
 scipy>=1.10
 matplotlib>=3.7
 numba>=0.58
 pillow>=10.0
-
+```
 
 
 
