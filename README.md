@@ -109,7 +109,7 @@ The expansion domain factor $T$ is to guarantee for error convergence versus par
 #### 1D Reaction-Diffusion PDE
 <table>
   <tr>
-    <td><img src="ReactionDiffusion/figures/fig3_reactiondiffusion.png" width="400" alt="(a)"></td>
+    <td><img src="ReactionDiffusion/figures/fig4_reactiondiffusion.png" width="400" alt="(a)"></td>
     <td><img src="ReactionDiffusion/figures/fig2_local_convergence_order.png" width="400" alt="(b)"></td>
   </tr>
   <tr>
