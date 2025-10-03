@@ -50,6 +50,7 @@ The expansion domain factor $T$ is to guarantee for error convergence versus par
 
 ### Kernel Comparison and Boundary-Penalty Parameter Sweeps
 
+#### 1D Poisson PDE
 <table>
   <tr>
     <td><img src="PoissonPDE/figures/fig3_poisson.png" width="400" alt="(a)"></td>
@@ -58,6 +59,19 @@ The expansion domain factor $T$ is to guarantee for error convergence versus par
   <tr>
     <td><img src="PoissonPDE/figures/fig14_poisson.png" width="400" alt="(c)"></td>
     <td><img src="PoissonPDE/figures/fig15_poisson.png" width="400" alt="(d)"></td>
+  </tr>
+</table>
+<p><em>(a)–(d) Panel results for Poisson with normalized RBFs approximation: Comparison of basis functions, convergence order, boundary-penalty parameter sweeps.</em></p>
+
+#### 1D Reaction-Diffusion PDE
+<table>
+  <tr>
+    <td><img src="ReactionDiffusion/figures/fig3_reactiondiffusion.png" width="400" alt="(a)"></td>
+    <td><img src="ReactionDiffusion/figures/fig2_local_convergence_order.png" width="400" alt="(b)"></td>
+  </tr>
+  <tr>
+    <td><img src="ReactionDiffusion/figures/fig14_reactiondiffusion.png" width="400" alt="(c)"></td>
+    <td><img src="ReactionDiffusion/figures/fig15_reactiondiffusion.png" width="400" alt="(d)"></td>
   </tr>
 </table>
 <p><em>(a)–(d) Panel results for Poisson with normalized RBFs approximation: Comparison of basis functions, convergence order, boundary-penalty parameter sweeps.</em></p>
