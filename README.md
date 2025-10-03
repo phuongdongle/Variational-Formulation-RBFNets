@@ -11,6 +11,14 @@ and truncated-SVD stabilisation.
 | Poisson            | <img src="https://latex.codecogs.com/svg.image?-u''=f" alt="-u'' = f">          | `rbf_poisson.py`            |
 | Classical obstacle | <img src="https://latex.codecogs.com/svg.image?u(x)%5Cge%5Cpsi(x)%2C%5C;-u''(x)%5Cge%20f(x)%2C%5C;(u-%5Cpsi)(-u''-f)%3D0" alt="u ≥ ψ,  -u'' ≥ f,  (u-ψ)(-u''-f)=0"> | `rbf_obstacle.py`           |
 
+#### Requirements
+```text
+numpy>=1.24
+scipy>=1.10
+matplotlib>=3.7
+numba>=0.58
+pillow>=10.0
+```
 
 ## 🗂️ Repository Layout
 
@@ -141,14 +149,7 @@ source .venv/bin/activate  # Windows: .venv\Scripts\activate
 pip install -r requirements.txt
 ```
 
-#### Requirements
-```text
-numpy>=1.24
-scipy>=1.10
-matplotlib>=3.7
-numba>=0.58
-pillow>=10.0
-```
+
 
 
 
