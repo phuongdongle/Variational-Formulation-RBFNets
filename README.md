@@ -28,7 +28,12 @@ The comparison of Approximation and Exact Solution for 1D - Poisson PDE as follo
 
 The variational method for Poisson PDE (1D) is shown to benchmark with other numerical methods: finite-difference, Galerkin, neural network (feed-forward). 
 
-![Convergence of Poisson solver with other methods](PoissonPDE/figures/fig2_poisson_convergence.png)
+![Convergence of Poisson solver with other methods](PoissonPDE/figures/fig2_poisson_convergence.png) 
+
+The expansion domain factor $T$ is to guarantee for error convergence versus parameter for choice of kernel shape $b = c(T, \tau) \times N$ in Gaussian RBF.
+
+![T expansion factor for Poisson](PoissonPDE/figures/fig4_poisson.png) 
+
 
 
 ### 3  Classical Obstacle
