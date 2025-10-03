@@ -18,8 +18,13 @@ and truncated-SVD stabilisation.
 Variational-Weak-Formulation-RBFNets/
 ├── scripts/                   # reproducible experiments (make figures)
 │   ├── 1D_Poisson_BenchmarkN.ipynb
+│   ├── 1D_Poisson_BenchmarkRBFs.ipynb
+│   ├── 1D_ReactionDiffusion_RBF.ipynb
 │   ├── 1D_ReactionDiffusion_BenchmarkN.ipynb
+│   ├── 1D_ReactionDiffusion_BenchmarkRBFs.ipynb
 │   └── 1D_ObstacleProblem_BenchmarkN.ipynb
+│   └── 1D_ObstacleProblem_BenchmarkN_Problem2.ipynb
+│   └── 1D_ObstacleProblem_BenchmarkRBF.ipynb
 ├── PoissonPDE/
 │   └── figures/
 │       ├── fig1_poisson.png
