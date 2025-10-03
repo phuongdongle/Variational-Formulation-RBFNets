@@ -48,6 +48,22 @@ The expansion domain factor $T$ is to guarantee for error convergence versus par
 ![T expansion factor for Poisson](ReactionDiffusion/figures/fig3_reactiondiffusion.png) 
 
 
+### Kernel Comparison and Boundary-Penalty Parameter Sweeps
+
+<table>
+  <tr>
+    <td><img src="PoissonPDE/figures/fig3_poisson.png" width="400" alt="(a)"></td>
+    <td><img src="PoissonPDE/figures/fig2_local_convergence_order.png" width="400" alt="(b)"></td>
+  </tr>
+  <tr>
+    <td><img src="PoissonPDE/figures/fig14_poisson.png" width="400" alt="(c)"></td>
+    <td><img src="PoissonPDE/figures/fig15_poisson.png" width="400" alt="(d)"></td>
+  </tr>
+</table>
+<p><em>(a)–(d) Panel results for Poisson with normalized RBFs approximation: Comparison of basis functions, convergence order, boundary-penalty parameter sweeps.</em></p>
+
+
+
 ### 3  Classical Obstacle
 
  <img src="https://latex.codecogs.com/svg.image?u(x)%5Cge%5Cpsi(x)%2C%5C;-u''(x)%5Cge%20f(x)%2C%5C;(u-%5Cpsi)(-u''-f)%3D0" alt="u ≥ ψ,  -u'' ≥ f,  (u-ψ)(-u''-f)=0">
