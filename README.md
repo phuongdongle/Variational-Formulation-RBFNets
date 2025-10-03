@@ -86,3 +86,62 @@ Dirichlet data: `u(a)=g_a`, `u(b)=g_b`.
 _Boundary conditions (and the obstacle constraint) are imposed weakly via a
 quadratic penalty; the resulting ill-conditioned systems are solved with
 truncated SVD (TSVD)._ 
+
+
+
+
+### Installation
+
+# clone
+git clone https://github.com/<USER>/<REPO>.git
+cd <REPO>
+
+# (optional) create an environment
+python -m venv .venv
+source .venv/bin/activate  # Windows: .venv\Scripts\activate
+
+# install
+pip install -r requirements.txt
+
+#### Requirements
+
+numpy>=1.24
+scipy>=1.10
+matplotlib>=3.7
+numba>=0.58
+pillow>=10.0
+
+
+### Layout Repo
+
+<REPO>/
+├── rbf_poisson.py
+├── rbf_reactiondiffusion.py
+├── rbf_obstacle.py
+├── common/                         # shared utilities (rbf kernels, grids, TSVD helpers)
+│   ├── kernels.py
+│   ├── tsvd.py
+│   └── penalties.py
+├── scripts/                        # runnable experiments that generate figures
+│   ├── run_poisson.py
+│   ├── run_reactiondiffusion.py
+│   └── run_obstacle.py
+├── PoissonPDE/
+│   └── figures/
+│       ├── fig1_poisson.png
+│       ├── fig2_poisson_convergence.png
+│       ├── fig3_poisson.png
+│       ├── fig4_poisson.png
+│       ├── fig14_poisson.png
+│       └── fig15_poisson.png
+├── ReactionDiffusion/
+│   └── figures/
+│       ├── fig1_reactiondiffusion.png
+│       ├── fig2_reactiondiffusion_convergence.png
+│       ├── fig3_reactiondiffusion.png
+│       ├── fig13_reactiondiffusion.png
+│       └── fig14_reactiondiffusion.png
+└── README.md
+
+
+
