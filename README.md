@@ -143,7 +143,7 @@ The comparison of Approximation and Exact Solution for 1D - Obstacle (Linear Pro
 
 
 
-##### One-Bump Obstacle Problem: 
+##### Two-Bump Obstacle Problem: 
 
 
 
