@@ -26,6 +26,10 @@ The comparison of Approximation and Exact Solution for 1D - Poisson PDE as follo
 
 ![Convergence of Poisson solver](PoissonPDE/figures/fig1_poisson.png)
 
+The variational method for Poisson PDE (1D) is shown to benchmark with other numerical methods: finite-difference, Galerkin, neural network (feed-forward). 
+
+![Convergence of Poisson solver with other methods](PoissonPDE/figures/fig2_poisson_convergence.png)
+
 
 ### 3  Classical Obstacle
 
