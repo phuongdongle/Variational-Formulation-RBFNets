@@ -14,11 +14,7 @@ and truncated-SVD stabilisation.
 
 ## 📜 Problems in Detail
 
-### 1  Reaction–Diffusion
-
-<img src="https://latex.codecogs.com/svg.image?-u''(x)&plus;u(x)=f(x),\;\;x\in(a,b),\;\;u(a)=g_a,\;u(b)=g_b" alt="-u'' + u = f (a,b) with Dirichlet BCs">
-
-### 2  Poisson
+### 1  Poisson
 
 <img src="https://latex.codecogs.com/svg.image?-u''(x)=f(x),\;\;x\in(a,b),\;\;u(a)=g_a,\;u(b)=g_b" alt="-u'' = f with BCs">
 
@@ -34,6 +30,22 @@ The expansion domain factor $T$ is to guarantee for error convergence versus par
 
 ![T expansion factor for Poisson](PoissonPDE/figures/fig4_poisson.png) 
 
+### 2  Reaction–Diffusion
+
+<img src="https://latex.codecogs.com/svg.image?-u''(x)&plus;u(x)=f(x),\;\;x\in(a,b),\;\;u(a)=g_a,\;u(b)=g_b" alt="-u'' + u = f (a,b) with Dirichlet BCs">
+
+
+The comparison of Approximation and Exact Solution for 1D - Poisson PDE as follows: 
+
+![Convergence of RD solver](ReactionDiffusion/figures/fig1_reactiondiffusion.png)
+
+The variational method for Poisson PDE (1D) is shown to benchmark with other numerical methods: finite-difference, Galerkin, neural network (feed-forward). 
+
+![Convergence of Poisson solver with other methods](ReactionDiffusion/figures/fig2_reactiondiffusion_convergence.png) 
+
+The expansion domain factor $T$ is to guarantee for error convergence versus parameter for choice of kernel shape $b = c(T, \tau) \times N$ in Gaussian RBF.
+
+![T expansion factor for Poisson](PoissonPDE/figures/fig4_reactiondiffusion.png) 
 
 
 ### 3  Classical Obstacle
