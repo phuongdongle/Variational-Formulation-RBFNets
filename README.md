@@ -130,14 +130,18 @@ _Boundary conditions (and the obstacle constraint) are imposed weakly via a
 quadratic penalty; the resulting ill-conditioned systems are solved with
 truncated SVD (TSVD)._ 
 
+#### 1D case: 
+
+##### One-Bump Obstacle Problem: 
 
 
 
-### Installation
+The comparison of Approximation and Exact Solution for 1D - Obstacle (Linear Problem) PDE as follows: 
 
-# clone
-git clone https://github.com/<USER>/<REPO>.git
-cd <REPO>
+![Convergence of Obstacle Single Bump solver](ClassicalObstacleProblem/figures/1D/One-Bump/fig_obstacle1D_single_bump.png)
+
+
+
 
 # (optional) create an environment
 python -m venv .venv
