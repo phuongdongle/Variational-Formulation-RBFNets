@@ -12,6 +12,43 @@ and truncated-SVD stabilisation.
 | Classical obstacle | <img src="https://latex.codecogs.com/svg.image?u(x)%5Cge%5Cpsi(x)%2C%5C;-u''(x)%5Cge%20f(x)%2C%5C;(u-%5Cpsi)(-u''-f)%3D0" alt="u ≥ ψ,  -u'' ≥ f,  (u-ψ)(-u''-f)=0"> | `rbf_obstacle.py`           |
 
 
+Variational-Weak-Formulation-RBFNets/
+├── rbf_poisson.py
+├── rbf_reactiondiffusion.py
+├── rbf_obstacle.py
+├── common/                    # shared helpers: kernels, TSVD, penalties, grids
+│   ├── kernels.py
+│   ├── tsvd.py
+│   └── penalties.py
+├── scripts/                   # reproducible experiments (make figures)
+│   ├── run_poisson.py
+│   ├── run_reactiondiffusion.py
+│   └── run_obstacle.py
+├── PoissonPDE/
+│   └── figures/
+│       ├── fig1_poisson.png
+│       ├── fig2_poisson_convergence.png
+│       ├── fig3_poisson.png
+│       ├── fig4_poisson.png
+│       ├── fig14_poisson.png
+│       └── fig15_poisson.png
+├── ReactionDiffusion/
+│   └── figures/
+│       ├── fig1_reactiondiffusion.png
+│       ├── fig2_reactiondiffusion_convergence.png
+│       ├── fig3_reactiondiffusion.png
+│       ├── fig13_reactiondiffusion.png
+│       └── fig14_reactiondiffusion.png
+├── tests/                     # smoke tests, manufactured solutions
+│   ├── test_poisson.py
+│   ├── test_reactiondiffusion.py
+│   └── test_obstacle.py
+├── requirements.txt
+├── README.md
+└── LICENSE
+
+
+
 ## 📜 Problems in Detail
 
 ### 1  Poisson
@@ -112,36 +149,7 @@ numba>=0.58
 pillow>=10.0
 
 
-### Layout Repo
 
-<REPO>/
-├── rbf_poisson.py
-├── rbf_reactiondiffusion.py
-├── rbf_obstacle.py
-├── common/                         # shared utilities (rbf kernels, grids, TSVD helpers)
-│   ├── kernels.py
-│   ├── tsvd.py
-│   └── penalties.py
-├── scripts/                        # runnable experiments that generate figures
-│   ├── run_poisson.py
-│   ├── run_reactiondiffusion.py
-│   └── run_obstacle.py
-├── PoissonPDE/
-│   └── figures/
-│       ├── fig1_poisson.png
-│       ├── fig2_poisson_convergence.png
-│       ├── fig3_poisson.png
-│       ├── fig4_poisson.png
-│       ├── fig14_poisson.png
-│       └── fig15_poisson.png
-├── ReactionDiffusion/
-│   └── figures/
-│       ├── fig1_reactiondiffusion.png
-│       ├── fig2_reactiondiffusion_convergence.png
-│       ├── fig3_reactiondiffusion.png
-│       ├── fig13_reactiondiffusion.png
-│       └── fig14_reactiondiffusion.png
-└── README.md
 
 
 
