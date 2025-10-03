@@ -45,7 +45,7 @@ The variational method for Poisson PDE (1D) is shown to benchmark with other num
 
 The expansion domain factor $T$ is to guarantee for error convergence versus parameter for choice of kernel shape $b = c(T, \tau) \times N$ in Gaussian RBF.
 
-![T expansion factor for Poisson](PoissonPDE/figures/fig4_reactiondiffusion.png) 
+![T expansion factor for Poisson](ReactionDiffusion/figures/fig3_reactiondiffusion.png) 
 
 
 ### 3  Classical Obstacle
