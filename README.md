@@ -12,6 +12,9 @@ and truncated-SVD stabilisation.
 | Classical obstacle | <img src="https://latex.codecogs.com/svg.image?u(x)%5Cge%5Cpsi(x)%2C%5C;-u''(x)%5Cge%20f(x)%2C%5C;(u-%5Cpsi)(-u''-f)%3D0" alt="u ≥ ψ,  -u'' ≥ f,  (u-ψ)(-u''-f)=0"> | `rbf_obstacle.py`           |
 
 
+## 🗂️ Repository Layout
+
+```text
 Variational-Weak-Formulation-RBFNets/
 ├── rbf_poisson.py
 ├── rbf_reactiondiffusion.py
@@ -39,13 +42,14 @@ Variational-Weak-Formulation-RBFNets/
 │       ├── fig3_reactiondiffusion.png
 │       ├── fig13_reactiondiffusion.png
 │       └── fig14_reactiondiffusion.png
-├── tests/                     # smoke tests, manufactured solutions
+├── tests/
 │   ├── test_poisson.py
 │   ├── test_reactiondiffusion.py
 │   └── test_obstacle.py
 ├── requirements.txt
 ├── README.md
 └── LICENSE
+
 
 
 
