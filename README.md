@@ -143,6 +143,19 @@ The comparison of Approximation and Exact Solution for 1D - Obstacle (Linear Pro
 
 
 
+##### One-Bump Obstacle Problem: 
+
+
+
+The comparison of Approximation and Exact Solution for 1D - Obstacle (Linear Problem) PDE as follows: 
+
+
+![Convergence of Obstacle Double Bump solver](ClassicalObstacleProblem/figures/1D/Two-Bump/fig_obstacle1D_double_bump.png)
+
+
+
+
+
 # (optional) create an environment
 python -m venv .venv
 source .venv/bin/activate  # Windows: .venv\Scripts\activate
