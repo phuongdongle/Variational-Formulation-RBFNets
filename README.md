@@ -70,11 +70,11 @@ The expansion domain factor $T$ is to guarantee for error convergence versus par
     <td><img src="ReactionDiffusion/figures/fig2_local_convergence_order.png" width="400" alt="(b)"></td>
   </tr>
   <tr>
-    <td><img src="ReactionDiffusion/figures/fig14_reactiondiffusion.png" width="400" alt="(c)"></td>
-    <td><img src="ReactionDiffusion/figures/fig15_reactiondiffusion.png" width="400" alt="(d)"></td>
+    <td><img src="ReactionDiffusion/figures/fig13_reactiondiffusion.png" width="400" alt="(c)"></td>
+    <td><img src="ReactionDiffusion/figures/fig14_reactiondiffusion.png" width="400" alt="(d)"></td>
   </tr>
 </table>
-<p><em>(a)–(d) Panel results for Poisson with normalized RBFs approximation: Comparison of basis functions, convergence order, boundary-penalty parameter sweeps.</em></p>
+<p><em>(a)–(d) Panel results for Reaction-Diffusion with normalized RBFs approximation: Comparison of basis functions, convergence order, boundary-penalty parameter sweeps.</em></p>
 
 
 
