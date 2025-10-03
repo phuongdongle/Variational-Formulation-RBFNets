@@ -22,6 +22,8 @@ and truncated-SVD stabilisation.
 
 <img src="https://latex.codecogs.com/svg.image?-u''(x)=f(x),\;\;x\in(a,b),\;\;u(a)=g_a,\;u(b)=g_b" alt="-u'' = f with BCs">
 
+The comparison of Approximation and Exact Solution for 1D - Poisson PDE as follows: 
+
 ![Convergence of Poisson solver](PoissonPDE/figures/fig1_poisson.png)
 
 
