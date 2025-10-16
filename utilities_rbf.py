@@ -227,12 +227,13 @@ def dtype32_to_dtype64_(y: np.ndarray,
 
 
 # Sampling random domain function 
-def sample_random(n, a=0.0, b=1.0, seed=42, jitter_frac=1e-6):
+def sample_random(n, a=0.0, b=1.0, seed=42, jitter_frac=1e-3):
     """
     Return n points in (a,b) that are random but not exactly on a grid.
     """
     if n <= 0:
         return np.empty(0, dtype=float)
+    # random seeding
     rng = np.random.default_rng(seed)
     k = np.arange(n, dtype=float)
     mid = (k + 0.5) / n                  # midpoints in (0,1)
@@ -246,10 +247,10 @@ def sample_random(n, a=0.0, b=1.0, seed=42, jitter_frac=1e-6):
 # ----------------------------
 # Domain sampler wrapper
 # ----------------------------
-def sampling_domain(n, a=0.0, b=1.0, mode="uniform", *, seed=447450, jitter_frac=1e-6):
+def sampling_domain(n, a=0.0, b=1.0, mode="uniform", *, seed=447450, jitter_frac=1e-3):
     """
     mode='uniform': return linspace; if include_endpoints=False, returns strictly interior points.
-    mode='random' : return quasi-uniform (jittered) mesh-free points in (a,b).
+    mode='random' : return random mesh-free points in (a,b).
     """
     if mode == "uniform":
         if n <= 0:
