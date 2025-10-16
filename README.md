@@ -100,8 +100,8 @@ The expansion domain factor $T$ is to guarantee for error convergence versus par
     <td><img src="PoissonPDE/figures/fig2_local_convergence_order.png" width="400" alt="(b)"></td>
   </tr>
   <tr>
-    <td><img src="PoissonPDE/figures/fig14_poisson.png" width="400" alt="(c)"></td>
-    <td><img src="PoissonPDE/figures/fig15_poisson.png" width="400" alt="(d)"></td>
+    <td><img src="PoissonPDE/figures/fig13_poisson.png" width="400" alt="(c)"></td>
+    <td><img src="PoissonPDE/figures/fig14_poisson.png" width="400" alt="(d)"></td>
   </tr>
 </table>
 <p><em>(a)–(d) Panel results for Poisson with normalized RBFs approximation: Comparison of basis functions, convergence order, boundary-penalty parameter sweeps.</em></p>
