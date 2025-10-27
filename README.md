@@ -161,6 +161,13 @@ In 2D cases, generally we choose the collocation points in the following:
 
 ##### Dome Obstacle Problem: 
 
+The given obstacle problem is as follows: 
+
+
+![Obstacle Function](ClassicalObstacleProblem/figures/2D/smooth_obs/fig2_obstacle_2D_psifunc.png)
+
+
+
 The comparison of approximation and exact solution for  2D - Obstacle PDE in the resolution of 800 x 800 as follows: 
 
 
