@@ -153,6 +153,18 @@ The comparison of Approximation and Exact Solution for 1D - Obstacle (Linear Pro
 ![Convergence of Obstacle Double Bump solver](ClassicalObstacleProblem/figures/1D/Two-Bump/fig_obstacle1D_two_bump.png)
 
 
+#### 2D case: 
+In 2D cases, generally we choose the collocation points in the following: 
+
+![Collocation points](ClassicalObstacleProblem/figures/2D/smooth_obs/fig2_obstacle_2D_collocations.png)
+
+
+##### Dome Obstacle Problem: 
+
+The comparison of approximation and exact solution for  2D - Obstacle PDE in the resolution of 800 x 800 as follows: 
+
+
+![Convergence of Obstacle Dome solver](ClassicalObstacleProblem/figures/2D/smooth_obs/fig1_obstacle_2D_smooth.png)
 
 
 
