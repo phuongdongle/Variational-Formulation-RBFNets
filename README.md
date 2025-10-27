@@ -174,6 +174,15 @@ The comparison of approximation and exact solution for  2D - Obstacle PDE in the
 ![Convergence of Obstacle Dome solver](ClassicalObstacleProblem/figures/2D/smooth_obs/fig1_obstacle_2D_smooth.png)
 
 
+##### Piecewise Obstacle Problem (Without analytical solution): 
+
+Contour plots of obstacle functional, approximation solution, and ADMM convergence on the resolution grid size of 800 x 800 as follows: 
+
+
+![Convergence of Obstacle Piecewise solver](ClassicalObstacleProblem/figures/2D/piecewise_obs/fig1_obstacle_2D_disjoint.png)
+
+
+
 
 # (optional) create an environment
 python -m venv .venv
